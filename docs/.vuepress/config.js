@@ -1,7 +1,15 @@
 module.exports = {
   title: '向阳的技术博客',
   description: '向阳的技术博客',
+  theme: 'reco',
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   themeConfig: {
+    lastUpdated: '上次更新',
+    subSidebar: 'auto',
     nav: [
         { text: '首页', link: '/' },
         { 
@@ -36,5 +44,6 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  base: '/blog/'
 }

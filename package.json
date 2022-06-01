@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
   },
   "repository": "git@github.com:lxqddd/blog.git",
   "author": "向阳 <xiangqian_liu@163.com>",
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.11"
   }
 }
