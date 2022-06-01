@@ -2,11 +2,19 @@ module.exports = {
   title: '向阳的技术博客',
   description: '向阳的技术博客',
   theme: 'reco',
+  base: '/blog/',
   locales: {
     '/': {
       lang: 'zh-CN'
     }
   },
+  plugins: [
+    require('./vuepress-plugin-code-copy'),
+    {
+      'copyButtonText': '复制',
+      'copiedButtonText': '已复制！'
+    }
+  ],
   themeConfig: {
     lastUpdated: '上次更新',
     subSidebar: 'auto',
@@ -45,5 +53,4 @@ module.exports = {
       }
     ]
   },
-  base: '/blog/'
 }
