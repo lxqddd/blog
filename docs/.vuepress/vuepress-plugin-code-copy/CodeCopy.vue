@@ -6,7 +6,7 @@
 export default {
   data() {
     return {
-      buttonText: copybuttonText
+      buttonText: copyButtonText
     }
   },
   methods: {
@@ -33,7 +33,7 @@ export default {
       this.buttonText = copiedButtonText
 
       setTimeout(() => {
-        this.buttonText = copybuttonText
+        this.buttonText = copyButtonText
       }, 1000)
     }
   }
