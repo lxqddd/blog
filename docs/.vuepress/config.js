@@ -70,6 +70,17 @@ module.exports = {
             path: '/handbook/Article'
           }
         ]
+      },
+      {
+        title: '每日一题',
+        path: '/questionOfTheDay/srcVsHref',
+        collapsable: false,
+        children: [
+          {
+            title: 'src 和 href 的对比',
+            path: '/questionOfTheDay/srcVsHref'
+          }
+        ]
       }
     ]
   }
