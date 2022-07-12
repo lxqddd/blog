@@ -73,12 +73,16 @@ module.exports = {
       },
       {
         title: '每日一题',
-        path: '/questionOfTheDay/srcVsHref',
+        path: '/questionOfTheDay/srcVShref',
         collapsable: false,
         children: [
           {
             title: 'src 和 href 的对比',
-            path: '/questionOfTheDay/srcVsHref'
+            path: '/questionOfTheDay/srcVShref'
+          },
+          {
+            title: 'HTML 语义化',
+            path: '/questionOfTheDay/HTMLSemantic'
           }
         ]
       }
