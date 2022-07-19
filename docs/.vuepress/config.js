@@ -83,6 +83,10 @@ module.exports = {
           {
             title: 'HTML 语义化',
             path: '/questionOfTheDay/HTMLSemantic'
+          },
+          {
+            title: 'this 指向问题',
+            path: '/questionOfTheDay/this 指向问题'
           }
         ]
       }
